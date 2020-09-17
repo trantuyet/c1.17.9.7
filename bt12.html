@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính tiền lãi ngân hàng</title>
+</head>
+<body>
+<script>
+    let a = + prompt ('Số tiền vay ');
+    let b = + prompt ('Vay trong bao nhiêu tháng ');
+    let d = 3/100;
+    if (b == 1) {
+        alert('Tiền lãi phải đóng là:' + d*a)
+    }
+    else if ( b == 2) {
+        alert('Tiền lãi phải đóng là:' + ((d*a)*d)-a)
+    }
+    else {
+        alert('Tiền lãi phải đóng là:' + ((a*((1+d)**b))-a))
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính thuế thu nhập cá nhân</title>
+</head>
+<body>
+<script>
+    let a = + prompt('tiền lương');
+    if (a >= 15000000) {
+        alert('Tiền thuế bạn phải nộp là: ' + (a*0.1))
+    }
+    else if (a >= 10000000 && a < 15000000) {
+        alert('Tiền thuế bạn phải nộp là: ' + (a*0.08))
+    }
+    else
+        alert('Bạn được miễn thuế')
+
+</script>
+</body>
+</html>

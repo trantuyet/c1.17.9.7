@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giải pt bậc 2</title>
+</head>
+<body>
+<script>
+    let a = +prompt('Nhập số đầu');
+    let b = +prompt('Nhập số hai');
+    let c = +prompt('Nhập số ba');
+    let d = b*b-(4*a*c);
+    if (d < 0)
+        alert('Phương trình vô nghiệm')
+    else if (d == 0){
+        alert('Phương trình có nghiệm kép: ' + d)
+    }
+    else {
+        alert('PT có 2 nghiệm phân biệt: ' + ((b + Math.sqrt(d))/(2*a)) + ""+ ((-b - Math.sqrt(d))/(2*a)))
+    }
+
+</script>
+</body>
+</html>

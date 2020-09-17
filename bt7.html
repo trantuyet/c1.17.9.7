@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính diện tích tam giác vuông</title>
+</head>
+<body>
+<script>
+    let a = + prompt('Cạnh thứ nhất');
+    let b = + prompt('Cạnh thứ hai');
+    let S = (0.5)*a*b;
+    if ( (a == 0 && b == 0) || ( a==0) || (b == 0))
+        alert('')
+    else if (a>0 && b<0)
+        alert('Không tính được ')
+    else if (a>0 && b>0)
+        alert('Diện tích = ' + S)
+    else
+        alert('Không tính được ')
+</script>
+</body>
+</html>

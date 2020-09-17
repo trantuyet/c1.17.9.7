@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Giải phương trình bậc nhất 2 ẩn</title>
+</head>
+<body>
+<script language="JavaScript" >
+    let a = + prompt("a: ")
+    let b = + prompt("b: ")
+    let x = b/a
+    {
+        if (a == 0 && b == 0){
+            alert('Phương trình vô số nghiệm');
+        }
+        else if (a != 0 && b == 0){
+            alert('Phương trình có nghiệm x = 0');
+        }
+        else if (a == 0 && b !=0 ){
+            alert('Phương trình vô nghiệm x = 0');
+        }
+        else {
+            alert('Phương trình có nghiệm x ' + x +' và ' + (-x))}
+    }
+</script>
+</body>
+</html>

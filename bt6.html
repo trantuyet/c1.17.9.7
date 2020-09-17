@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính diện tích hình chữ nhật</title>
+</head>
+<body>
+<script>
+    let a = + prompt('Nhập chiều dài');
+    let b = + prompt('Nhập chiều rộng');
+    let S = a * b
+    if ((a == 0 && b == 0) || (a == 0) || (b ==0))
+        alert('S= 0')
+    else if (a>0 && b<0)
+        alert('Không hợp lệ')
+    else if (a>0 && b>0)
+        alert('S= ' + S)
+    else
+        alert('Không tính được ')
+</script>
+</body>
+</html>
